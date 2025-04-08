@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrolitos Orales</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+</head>
+
+<body>
+    <div class="electrolitos-background">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../img/logo.jpg" alt="Logo de la marca">
+                    </a>
+                </div>
+                <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span> 
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>            
+            </nav>
+            <div class="hamburger-menu hidden">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1 style="text-align: center;">Electrolitos Orales</h1> <br>
+                    <h1 style="text-align: center;">Indicaciones y recomendaciones</h1>
+                </div>
+            </div>
+        </div>
+            
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Los electrolitos orales están indicados en casos de deshidratación leve a moderada, ya sea causada por enfermedades gastrointestinales (como diarrea o vómitos), actividad física intensa, exposición al calor o fiebre prolongada. También se recomiendan para personas con riesgo de pérdida de líquidos, como niños pequeños, adultos mayores y atletas.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/img7.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Este tipo de soluciones son especialmente útiles para: <br>
+                        Niños: Ayudan a prevenir la deshidratación grave por diarrea o vómitos. <br>
+                        Adultos mayores: Son más susceptibles a la pérdida de líquidos por enfermedades o calor. <br>
+                        Deportistas: Permiten una recuperación más rápida del equilibrio de agua y sales. <br>
+                        Personas con fiebre o sudoración excesiva: Facilitan la rehidratación eficaz.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/img8.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Las soluciones de rehidratación oral deben tomarse en pequeñas cantidades pero de forma frecuente, especialmente después de cada evacuación líquida o episodio de vómito. No se deben consumir de golpe, ya que esto puede causar molestias gastrointestinales. Se recomienda seguir las indicaciones del envase o del profesional de salud.
+                    </p> 
+                </div> 
+            </div>
+        </div>
+
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1 style="text-align: center;"></h1>
+                    <h1>Contraindicaciones y precauciones</h1>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <div class="cards-electro-container">
+                    <div class="cards-electro">
+                        <p>
+                            Aunque los electrolitos orales son seguros, no deben usarse como sustituto del agua en personas sanas. También deben evitarse en personas con enfermedades renales graves, insuficiencia cardíaca o trastornos que afecten el metabolismo de líquidos y electrolitos, salvo indicación médica.
+                            Es importante leer la etiqueta del producto y no superar la dosis recomendada.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="cards-electro-image">
+                        <img src="../img/img9.jpg" alt="Imagen de referencia">
+                    </div>
+                </div>    
+
+                <div class="cards-electro-container">
+                    <div class="cards-electro">
+                        <p>
+                            Antes de consumir una solución de rehidratación oral:
+                            Verifica que esté certificada por autoridades sanitarias.
+                            Asegúrate de que el producto esté dentro de la fecha de caducidad.
+                            Revisa la concentración de minerales y azúcares, especialmente en personas con diabetes o hipertensión.
+                            Consulta con un profesional si el paciente es un bebé menor de 6 meses, una persona con fiebre alta o con vómitos persistentes.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="cards-electro-image">
+                        <img src="../img/img10.jpg" alt="Imagen de referencia">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

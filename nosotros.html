@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure responsiveness -->
+    <title>Electrolitos Orales</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="welcome-tab"> <!-- Apply the wooden background -->
+
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../img/logo.jpg" alt="Logo de la marca">
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="electrolitos.html">Electrolitos</a></li>
+                <li><a href="indicaciones.html">Indicaciones</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu hidden">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="electrolitos.html">Electrolitos</a></li>
+                <li><a href="indicaciones.html">Indicaciones</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Sección de la Card -->
+    <div class="container">
+        <div class="card">
+            <h2>Objetivo</h2>
+            <p>
+                Este proyecto tiene como objetivo desarrollar una pagina web didactica e interactiva sobre el uso correcto
+                de electrolitos via oral, como Electrolit, y los mecanismos de accion en la hidratacion celular. La web estara dirigida
+                a profesionales de la salud y usuarios generales, proporcionando informacion clara sobre la importancia 
+                de los electrolitos en el equilibrio hidrico, la funcion celular y la recuperacion en casos de deshidratacion o agotamiento fisico.
+            </p>
+            <img src="../img/sitio-web.png" alt="Imagen sitioweb" class="nos-image">
+        </div>
+        <div class="card">
+            <h2>Acerca de Nosotros</h2>
+            <p>
+                Somos un grupo de estudiantes de la licenciatura en Químico Farmacéutico Biólogo(QFB) de la Universidad UTEG, motivados por nuestra pasión por la ciencia. En este sitio nos dedicamos a proporcionar información sobre Electrolitos.
+            </p>
+            <img src="../img/logo.jpg" alt="Imagen logo" class="nos-image">
+        </div>
+        <div class="card">
+            <h2>Objetivo General</h2>
+            <p>
+                En este proyecto, el objetivo es resumir y explicar qué son los electrolitos, su función en el cuerpo humano, su uso correcto y los mecanismos fisiológicos que facilitan la hidratación celular.
+            </p>
+            <img src="../img/consumo.png" alt="Imagen logo" class="nos-image">
+        </div>
+        <div class="card">
+            <h2>Integrantes</h2>
+            <p>
+                BRENDA CAROLINA ROJO MORALES <br>
+                JESSICA MYRTHALA CHAVEZ VILLAREAL <br>
+                LUIS FRANCISCO KONO ROMERO <br>
+                <img src="../img/idea-genial.png" alt="Imagen logo" class="nos-image">
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+
+</body>
+</html>

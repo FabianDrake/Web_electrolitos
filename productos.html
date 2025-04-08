@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrolitos Orales</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+</head>
+<body>
+    <div class="electrolitos-background">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../img/logo.jpg" alt="Logo de la marca">
+                    </a>
+                </div>
+                <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu hidden">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </div>
+        </header>
+        <br><br><br><br>
+
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1 style="text-align: center;">Electrolitos Orales</h1><br>
+                    <h1 style="text-align: center;">Productos</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1>🧃 Electrolit®</h1>
+                    <p>
+                        Electrolit® es una solución de rehidratación oral científicamente formulada para reponer electrolitos y líquidos perdidos por deshidratación. Contiene una mezcla balanceada de sodio, potasio, calcio, magnesio, cloruro y glucosa, que favorece una absorción rápida y eficaz. Es ampliamente utilizado en casos de diarrea, vómito, fiebre o ejercicio intenso.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/img11.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1>🥭 Electrolit® Sabores</h1>
+                    <p>
+                        La línea de Electrolit® incluye una variedad de sabores como:
+                        Fresa-Kiwi
+                        Mango
+                        Coco
+                        Uva
+                        Manzana
+                        Mora azul
+                        Todos los sabores mantienen la misma fórmula de rehidratación, lo que permite al usuario elegir según su preferencia sin afectar su efectividad.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/img12.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1>💧 Suero Vida Oral (SVO)</h1>
+                    <p>
+                        Recomendado por la Organización Mundial de la Salud (OMS), el Suero Vida Oral es una alternativa básica, accesible y efectiva para tratar la deshidratación leve a moderada, especialmente en niños y adultos mayores. Contiene:
+                        Glucosa
+                        Cloruro de sodio
+                        Cloruro de potasio
+                        Citrato de sodio
+                        Se puede encontrar en presentación en polvo para disolver en agua o en botellas listas para consumir.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/img13.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1>🏃‍♂️ Suplementos deportivos con electrolitos</h1>
+                    <p>
+                        Algunos productos enfocados en deportistas también contienen electrolitos, como:
+                        Gatorade®
+                        Powerade®
+                        Pedialyte Sport®
+                        Aunque su sabor y presentación son distintos, su objetivo es el mismo: reponer líquidos y sales minerales perdidas durante la actividad física intensa o exposición al calor.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/img14.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1>⚠️ Recomendaciones al elegir productos</h1>
+                    <p>
+                        Verifica que el producto esté avalado por autoridades sanitarias.
+                        Evita bebidas con altos niveles de azúcar o cafeína, ya que pueden empeorar la deshidratación.
+                        No sustituyas soluciones electrolíticas por refrescos, jugos o bebidas energéticas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrolitos Orales</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../img/logo.jpg" alt="Logo de la marca">
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="hamburger-menu hidden">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="electrolitos.html">Electrolitos</a></li>
+                <li><a href="indicaciones.html">Indicaciones</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Pestaña de bienvenida -->
+    <div class="welcome-tab">
+        <div class="card">
+            <div class="welcome-content">
+                <!-- Wrap content inside a container -->
+                <div class="content-wrapper">
+                    <h1>Información del uso correcto de electrolitos vía orales (Electrolit) y mecanismos de acción para la hidratación celular</h1>
+                    <p>Explora la importancia de los electrolitos orales para una hidratación saludable.</p>
+                    <img src="../img/bienvenida2.jpg" alt="Imagen de bienvenida" class="welcome-image">
+                </div>
+                <h2>Bienvenidos</h2>
+                <p>
+                    Este proyecto tiene como objetivo enseñar de manera clara y visual <strong>la importancia del uso correcto de los electrolitos orales</strong>, como Electrolit, en la <strong>hidratación celular</strong>.
+                </p>
+                <p>
+                    La información está dirigida tanto a <strong>profesionales de la salud</strong> como a <strong>usuarios en general</strong> interesados en cuidar su salud y entender cómo el cuerpo mantiene su equilibrio.
+                </p>
+                <p><em>"La hidratación es vida: conoce el poder de los electrolitos."</em></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

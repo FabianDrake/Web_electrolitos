@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrolitos Orales</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+</head>
+
+<body>
+    <div class="welcome-tab">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../img/logo.jpg" alt="Logo de la marca">
+                    </a>
+                </div>
+                <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span> 
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>            
+            </nav>
+            <div class="hamburger-menu hidden">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="electrolitos.html">Electrolitos</a></li>
+                    <li><a href="indicaciones.html">Indicaciones</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="quiz-card">
+            <div class="quiz-container">
+                <h2>Prueba tus conocimientos sobre electrolitos</h2>
+                <form id="quiz-form">
+                    <!-- Questions will be dynamically added here -->
+                </form>
+                <button id="submit-quiz">Enviar respuestas</button>
+                <p id="quiz-result"></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+    <script src="/js/quiz.js"></script>
+</body>
+</html>
