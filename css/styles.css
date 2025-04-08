@@ -262,6 +262,46 @@ body{
     .card p {
         font-size: 0.9rem;
     }
+
+    body {
+        font-size: 16px; /* Reduce base font size */
+    }
+
+    .card h2 {
+        font-size: 1.2rem; /* Smaller heading size */
+    }
+
+    .card p {
+        font-size: 0.8rem; /* Smaller paragraph size */
+    }
+
+    .header .nav-links a {
+        font-size: 14px; /* Smaller navigation links */
+    }
+
+    .welcome-content h1 {
+        font-size: 1.8rem; /* Smaller welcome heading */
+    }
+
+    .welcome-content p {
+        font-size: 1rem; /* Smaller welcome paragraph */
+    }
+
+    .quiz-container h2 {
+        font-size: 1.5rem; /* Smaller quiz heading */
+    }
+
+    .quiz-container button {
+        font-size: 0.9rem; /* Smaller button text */
+    }
+
+    #quiz-result {
+        font-size: 1rem; /* Smaller result text */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Smaller h1 size */
+    }
 }
 
 /* Responsiveness for header */
@@ -349,6 +389,46 @@ body{
 
     .card p {
         font-size: 0.8rem;
+    }
+
+    body {
+        font-size: 14px; /* Further reduce base font size */
+    }
+
+    .card h2 {
+        font-size: 1rem; /* Further smaller heading size */
+    }
+
+    .card p {
+        font-size: 0.7rem; /* Further smaller paragraph size */
+    }
+
+    .header .nav-links a {
+        font-size: 12px; /* Further smaller navigation links */
+    }
+
+    .welcome-content h1 {
+        font-size: 1.5rem; /* Further smaller welcome heading */
+    }
+
+    .welcome-content p {
+        font-size: 0.9rem; /* Further smaller welcome paragraph */
+    }
+
+    .quiz-container h2 {
+        font-size: 1.2rem; /* Further smaller quiz heading */
+    }
+
+    .quiz-container button {
+        font-size: 0.8rem; /* Further smaller button text */
+    }
+
+    #quiz-result {
+        font-size: 0.9rem; /* Further smaller result text */
+    }
+
+    h1 {
+        font-size: 1.2rem; /* Further smaller h1 size */
     }
 }
 
